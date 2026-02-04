@@ -4,21 +4,24 @@ Projeto desenvolvido como parte de um desafio de bootcamp, com foco em análise 
 ## 1. Estrutura do Projeto
 Este projeto segue a seguinte estrutura:
 
-__dio-sql-challenge/__ <br>
+**dio-sql-challenge/** <br>
 ├── README.md <br>
-├── database/ <br>
-│   └── ecommerce.sql <br>
-├── data/ <br>
-│   └── insert_data.sql <br>
-├── queries/ <br>
-│   └── ecommerce_analysis.sql <br>
-└── docs/ <br>
-   └── schema_diagram.png (opcional) <br>
+├── projeto_01_ecommerce/ <br>
+│   ├── README.md <br>
+│   ├── database/ <br>
+│   │   └── ecommerce.sql <br>
+│   ├── data/ <br>
+│   │   └── insert_data.sql <br>
+│   ├── queries/ <br>
+│   │   └── ecommerce_analysis.sql <br>
+│   └── docs/ <br>
+│       └── schema_diagram.png <br>
+└── projeto_02_oficina/ <br>
 
-- Na pasta `database` está disponibilizado o schema criado com banco de dados e tabelas;
-- Na pasta `data` está disponibilizado o arquivo _.sql_ utilizado para input dos dados no banco;
-- Na pasta `queries` está disponibilizado o arquivo _.sql_ utilizado para realização de consultas no banco;
-- Na pasta `docs`, estão disponibilizados arquivos auxiliares para documentação desse desafio.
+- Na subpasta `database` está disponibilizado o schema criado com banco de dados e tabelas;
+- Na subpasta `data` está disponibilizado o arquivo _.sql_ utilizado para input dos dados no banco;
+- Na subpasta `queries` está disponibilizado o arquivo _.sql_ utilizado para realização de consultas no banco;
+- Na subpasta `docs`, estão disponibilizados arquivos auxiliares para documentação desse desafio.
 
 ## 2. Modelagem
 O modelo construído contém 12 tabelas:
@@ -35,8 +38,8 @@ O modelo construído contém 12 tabelas:
 - Produtoterceiro
 - Terceirovendedor
 
-O script para criação das tabelas pode ser acessado em _database/ecommerce.sql_
-O relacionamento entre essas tabelas foi estabelecido por meio de restrições de chaves estrangeiras, que podem ser visualizadas em docs/schema_diagram.png.
+O script para criação das tabelas pode ser acessado em _projeto_01_ecommerce/database/ecommerce.sql_
+O relacionamento entre essas tabelas foi estabelecido por meio de restrições de chaves estrangeiras, que podem ser visualizadas em _projeto_01_ecommerce/docs/schema_diagram.png_.
 
 ### 2.1. Dados do projeto
 Os dados utilizados neste projeto são __fictícios__ e foram criados __exclusivamente para fins educacionais e de demonstração de consultas SQL__.<br>
@@ -47,7 +50,7 @@ A geração dos dados foi realizada de forma assistida, com foco em:
 
 ## 3. Análises
 As queries construídas buscaram responder a questionamentos de negócio elaborados com base nos dados fictícios inseridos no banco de dados.
-O arquivo com as consultas pode ser encontrado em queries/ecommerce_analysis.sql.
+O arquivo com as consultas pode ser encontrado em _projeto_01_ecommerce/queries/ecommerce_analysis.sql_.
 Nesta seção são apresentadas as dimensões analisadas, as perguntas que motivaram a elaboração das consultas e os principais resultados observados.
 
 ### 3.1. Dimensões de análise
