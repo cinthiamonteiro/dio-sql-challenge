@@ -38,7 +38,9 @@ select p.idPeca, p.Nome, s.Nome, coalesce(count(sp.idServico),0) as NumPecas
 from Peca p
 left join Servico s on p.idPeca = s.idPeca
 left join ServicosPrestados sp on s.idServico = sp.idServico
-group by p.idPeca, p.Nome, s.Nome;
+group by p.idPeca, p.Nome, s.Nome
+having coalesce(count(sp.idServico),0) > 0
+order by NumPecas desc;
 
 -- Quanto foi faturado até o momento?
 
