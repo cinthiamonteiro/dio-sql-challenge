@@ -5,28 +5,33 @@ Este repositório contém projetos desenvolvidos como parte dos desafios prátic
 ## Projetos
 - projeto_01_ecommerce: criado de forma guiada por instrutora do bootcamp.
 - projeto_02_oficina: criado do zero.
+- projeto_03_universidade: transformação de schema para um star schema.
 
 ## Estrutura do repositório
-
-**dio-sql-challenge/** <br>
-├── README.md <br>
-├── **projeto_01_ecommerce/** <br>
-│   ├── README.md <br>
-│   ├── database/ <br>
-│   │   └── ecommerce.sql <br>
-│   ├── data/ <br>
-│   │   └── insert_data.sql <br>
-│   ├── queries/ <br>
-│   │   └── ecommerce_analysis.sql <br>
-│   └── docs/ <br>
-│       └── schema_diagram.png <br>
-└── **projeto_02_oficina/** <br>
-    ├── README.md <br>
-    ├── database/ <br>
-    │   └── oficina.sql <br>
-    ├── data/ <br>
-    │   └── insert_data.sql <br>
-    ├── queries/ <br>
-    │   └── oficina_analysis.sql <br>
-    └── docs/ <br>
-        └── schema_diagram.png <br>
+```text
+dio-sql-challenge/
+├── README.md
+├── projeto_01_ecommerce/
+│   ├── README.md 
+│   ├── database/
+│   │   └── ecommerce.sql
+│   ├── data/
+│   │   └── insert_data.sql
+│   ├── queries/
+│   │   └── ecommerce_analysis.sql
+│   └── docs/
+│       └── schema_diagram.png
+└── projeto_02_oficina/
+│   ├── database/
+│   │   └── oficina.sql
+│   ├── data/
+│   │   └── insert_data.sql
+│   ├── queries/
+│   │   └── oficina_analysis.sql
+│   └── docs/
+│       └── schema_diagram.png
+└── projeto_03_universidade/
+    ├── schema_original.png
+    ├── schema_universidade.png
+    └── schema_universidade.sql
+```
