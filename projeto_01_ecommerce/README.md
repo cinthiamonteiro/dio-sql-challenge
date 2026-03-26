@@ -3,21 +3,19 @@ Projeto desenvolvido como parte de um desafio de bootcamp, com foco em análise 
 
 ## 1. Estrutura do Projeto
 Este projeto segue a seguinte estrutura:
-
-**dio-sql-challenge/** <br>
-├── README.md <br>
-├── projeto_01_ecommerce/ <br>
-│   ├── README.md <br>
-│   ├── database/ <br>
-│   │   └── ecommerce.sql <br>
-│   ├── data/ <br>
-│   │   └── insert_data.sql <br>
-│   ├── queries/ <br>
-│   │   └── ecommerce_analysis.sql <br>
-│   └── docs/ <br>
-│       └── schema_diagram.png <br>
-└── projeto_02_oficina/ <br>
-
+```text
+dio-sql-challenge/
+└── projeto_01_ecommerce/
+     ├── README.md
+     ├── database/
+     │   └── ecommerce.sql
+     ├── data/
+     │   └── insert_data.sql
+     ├── queries/ 
+     │   └── ecommerce_analysis.sql
+     └── docs/ 
+         └── schema_diagram.png 
+````
 - Na subpasta `database` está disponibilizado o schema criado com banco de dados e tabelas;
 - Na subpasta `data` está disponibilizado o arquivo _.sql_ utilizado para input dos dados no banco;
 - Na subpasta `queries` está disponibilizado o arquivo _.sql_ utilizado para realização de consultas no banco;
